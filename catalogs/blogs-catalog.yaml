@@ -4,6 +4,8 @@ metadata:
   name: uthblogs
   description: |
     Set of useful blogs
+  annotations:
+    argocd/app-name: uthblogs
   links:
     - title: My First Neuron
       url: https://devepiphany.org/2022/05/24/my-first-neuron-atomic-ai-principles-fun/
