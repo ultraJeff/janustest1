@@ -18,5 +18,5 @@ metadata:
     argocd/app-name: uthblogs
 spec:
   type: library
-  owner: Uther
+  owner: utherp0
   lifecycle: experimental
