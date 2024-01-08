@@ -4,7 +4,7 @@ kind: Template
 # some metadata about the template itself
 metadata:
   name: v1beta3-demo
-  title: Test Action template from Backstage
+  title: RHDH Test Scaffold template from Backstage
   description: scaffolder v1beta3 template demo
 spec:
   owner: backstage/techdocs-core
