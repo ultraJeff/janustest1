@@ -5,4 +5,4 @@ metadata:
 spec:
   profile:
     displayName: Me On RHDH # Can be anything, defaults to metadata.name
-  memberOf: []
+  memberOf: [default]
