@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blogstest
+  description: |
+    Set of useful blogs
+  links:
+    - title: My First Neuron
+      url: https://devepiphany.org/2022/05/24/my-first-neuron-atomic-ai-principles-fun/
+    - title: KCP Overview
+      url: https://devepiphany.org/2022/01/31/what-on-earth-is-kcp-and-why-should-i-be-very-very-excited-about-it/
+    - title: Spark on OpenShift
+      url: https://devepiphany.org/2021/05/19/spark-ly-openshift/
+    - title: Kubernetes Introduction
+      url: https://devepiphany.org/2021/01/15/interlude-kubernetes-koncepts/
+  annotations:
+    github.com/project-slug: utherp0/janustest1
+    argocd/app-name: uthblogs
+spec:
+  type: library
+  lifecycle: experimental
