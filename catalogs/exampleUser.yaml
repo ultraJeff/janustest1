@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: utherp0 # This MUST match your Github account name
+  name: utherp0 
 spec:
   profile:
-    displayName: Me On RHDH # Can be anything, defaults to metadata.name
-  memberOf: [default]
+    displayName: Me On RHDH 
+    email: uther@redhat.com
+  memberOf: []
