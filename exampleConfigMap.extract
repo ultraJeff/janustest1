@@ -1,0 +1,29 @@
+data:
+  app-config-rhdh.yaml: |
+    app:
+      title: Red Hat Developer Hub
+      baseUrl: https://developer-hub-utherp0-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+    catalog:
+      locations:
+        - type: url
+          target: https://github.com/utherp0/janustest1/blob/main/catalogs/exampleUser.yaml
+          rules:
+            - allow: [User, Group]
+        - type: url
+          target: https://github.com/hpgrahsl/rhdh-demo-data/blob/main/demo_org.yaml
+          rules:
+            - allow: [User, Group]
+    integrations:
+      github:
+        - host: github.com
+          token: GITHUB_TOKEN
+    auth:
+      allowGuestAccess: true
+      environment: development
+      providers:
+        github:
+          development:
+            clientId: OAUTH_CLIENTID
+            clientSecret: OAUTH_CLIENT_SECRET
+    enabled:
+      github: true
