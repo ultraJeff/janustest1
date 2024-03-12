@@ -45,14 +45,14 @@ spec:
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
-    - id: fetch-base
-      name: Fetch Base
-      action: fetch:template
-      input:
-        url: ./template
-        values:
-          name: ${{ parameters.name }}
-          owner: ${{ parameters.owner }}
+    # - id: fetch-base
+    #   name: Fetch Base
+    #   action: fetch:template
+    #   input:
+    #     url: ./template
+    #     values:
+    #       name: ${{ parameters.name }}
+    #       owner: ${{ parameters.owner }}
 
     - id: fetch-docs
       name: Fetch Docs
