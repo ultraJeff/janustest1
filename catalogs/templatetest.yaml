@@ -3,8 +3,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: rhdhdemo1
-  title: RHDH Test Scaffold template from Backstage
+  name: rhdhdemo-ultraJeff
+  title: RHDH Test Scaffold template from Backstage (ultraJeff)
   description: scaffolder v1beta3 template demo
 spec:
   owner: backstage/techdocs-core
